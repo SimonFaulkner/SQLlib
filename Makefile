@@ -12,3 +12,4 @@ endif
 sqllib.o: sqllib.c sqllib.h
 	cc -g -O -c -o $@ $< -fPIC -D_GNU_SOURCE -DLIB ${SQLINC} -DMYSQL_VERSION=${SQLVER}
 
+; Just a test change
